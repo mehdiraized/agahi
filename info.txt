@@ -1,0 +1,4 @@
+php -S localhost:8889 -t public public/index.php
+php -S localhost:8888 -t test
+
+gulp run

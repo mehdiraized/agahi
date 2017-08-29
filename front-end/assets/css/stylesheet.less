@@ -1,0 +1,251 @@
+//@charset "utf-8";
+@import url(kube.min.css);
+@import url(reset.css);
+@import url(fonts.css);
+@import url(plugins.css);
+@import url(font-awesome.min.css);
+@baseColor : #0049b0;
+@baseColorText : #fff;
+.button,
+body,
+button,
+h1,
+h1.title,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'irsans';
+}
+
+.ReactModal__Content {
+  background-color: @baseColor !important;
+  color: @baseColorText !important;
+  padding: 30px !important;
+  .close {
+    float: left;
+    cursor: pointer;
+  }
+  h2 {
+    color: @baseColorText;
+    margin-top: -15px;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .form-item {
+    margin-bottom: 15px;
+    label {
+      color: @baseColorText;
+      margin-bottom: 7px;
+    }
+    input {
+      text-align: left;
+      direction: ltr;
+      padding: 0 10px;
+    }
+  }
+  button {
+    float: left;
+    margin-top: 10px;
+  }
+}
+
+#siteHeader {
+  background-color: @baseColor;
+  color: @baseColorText;
+  padding: 10px;
+  #logo {
+    display: inline-block;
+    color: #fff;
+  }
+  nav {
+    display: inline-block;
+    margin-right: 30px;
+    li {
+      display: inline-block;
+      margin-right: 10px;
+      line-height: 20px;
+      line-height: 52px;
+      &:hover {
+        ul {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+      ul {
+        transition: all .3s ease-in-out;
+        position: absolute;
+        width: 200px;
+        visibility: hidden;
+        opacity: 0;
+        background: @baseColor;
+        color: @baseColorText;
+        z-index: 99;
+        padding: 0 10px;
+        li {
+          width: 100%;
+        }
+      }
+    }
+  }
+  button {
+    margin-top: 5px;
+  }
+}
+
+main {
+  #posts {
+    overflow: hidden;
+    margin: 0 -15px;
+    padding-top: 20px;
+    .post {
+      float: left;
+      background: #fff;
+      width: 280px;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 15px;
+      margin-left: 10px;
+      border: 1px solid #eee;
+      -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .1);
+      box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .1);
+      -webkit-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+      figure {
+        position: relative;
+        span {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          a {
+            background-color: @baseColor;
+            border-radius: 100%;
+            color: @baseColorText;
+            width: 35px;
+            height: 35px;
+            min-height: 35px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            line-height: 35px;
+            padding: 0;
+            text-align: center;
+          }
+        }
+      }
+      header {
+        font-weight: 300;
+        padding: 10px;
+        span {
+          font-weight: 400;
+          font-size: 13px;
+          padding: 0 10px;
+        }
+      }
+      p {
+        color: #777;
+        line-height: 23px;
+        overflow: hidden;
+      }
+      footer {
+        margin-top: 10px;
+        span {
+          padding: 10px 0;
+          display: inline-block;
+        }
+      }
+    }
+  }
+  .single {
+    padding: 30px;
+    .post {
+      background: #fff;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 15px;
+      margin-left: 10px;
+      border: 1px solid #eee;
+      -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .1);
+      box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .1);
+      -webkit-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+      overflow: hidden;
+      figure {
+        width: 280px;
+        float: right;
+        margin-left: 20px;
+      }
+      header {
+        font-weight: 300;
+        padding: 10px;
+      }
+      p {
+        color: #777;
+        line-height: 23px;
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+#siteFooter {
+  background-color: @baseColor;
+  color: @baseColorText;
+  span {
+    float: left;
+    direction: ltr;
+    text-align: left;
+  }
+  padding: 25px 0;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+
+.form-item {
+  label {
+    margin-bottom: 7px;
+  }
+  input {
+    padding: 0 12px;
+  }
+  textarea {
+    padding: 12px;
+  }
+  .lbselect {
+    position: relative;
+    &:before {
+      font-family: 'Kube' !important;
+      content: "\e901";
+      position: absolute;
+      left: 15px;
+      width: 15px;
+      height: 30px;
+      font-size: 20px;
+      color: #000;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+    }
+    select {
+      padding-right: 35px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+}

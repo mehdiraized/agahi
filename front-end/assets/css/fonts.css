@@ -1,0 +1,67 @@
+/* IRANSans fonts are used in this project under the license: ..... */
+
+@font-face {
+	font-family: irsans;
+	font-style: normal;
+	font-weight: 700;
+	src: url(../fonts/irsans-b.eot);
+	src: url(../fonts/irsans-b.eot?#iefix) format("embedded-opentype"), url(../fonts/irsans-b.woff) format("woff"), url(../fonts/irsans-b.ttf) format("truetype")
+}
+
+@font-face {
+	font-family: irsans;
+	font-style: normal;
+	font-weight: 500;
+	src: url(../fonts/irsans-m.eot);
+	src: url(../fonts/irsans-m.eot?#iefix) format("embedded-opentype"), url(../fonts/irsans-m.woff) format("woff"), url(../fonts/irsans-m.ttf) format("truetype")
+}
+
+@font-face {
+	font-family: irsans;
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/irsans.eot);
+	src: url(../fonts/irsans.eot?#iefix) format("embedded-opentype"), url(../fonts/irsans.woff) format("woff"), url(../fonts/irsans.ttf) format("truetype")
+}
+
+@font-face {
+	font-family: irsans;
+	font-style: normal;
+	font-weight: 300;
+	src: url(../fonts/irsans-l.eot);
+	src: url(../fonts/irsans-l.eot?#iefix) format("embedded-opentype"), url(../fonts/irsans-l.woff) format("woff"), url(../fonts/irsans-l.ttf) format("truetype")
+}
+
+@font-face {
+	font-family: irsans;
+	font-style: normal;
+	font-weight: 200;
+	src: url(../fonts/irsans-u.eot);
+	src: url(../fonts/irsans-u.eot?#iefix) format("embedded-opentype"), url(../fonts/irsans-u.woff) format("woff"), url(../fonts/irsans-u.ttf) format("truetype")
+}
+
+
+/* FontIcons** SVGs by flaticon & Converted to font icon by IcoMoon 
+
+@font-face {
+	font-family: 'icons';
+	src: url(../fonts/icons/icons.eot?u4i56t);
+	src: url(../fonts/icons/icons.eot?u4i56t#iefix) format("embedded-opentype"), url(../fonts/icons/icons.ttf?u4i56t) format("truetype"), url(../fonts/icons/icons.woff?u4i56t) format("woff"), url(../fonts/icons/icons.svg?u4i56t#icons) format("svg");
+	font-weight: 400;
+	font-style: normal
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	font-family: 'icons'!important;
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+*/
