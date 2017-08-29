@@ -22,12 +22,12 @@ Eloqent: https://laravel.com/docs/5.4/eloquent
 
 ## Contributors
 
-github: @mehdiraized
-codepen: @mehdiraized
-facebook: @mehdiraized
-twitter: @mehdiraized
-instagram: @mehdiraized
-telegram: @mehdiraized
+[github](https://github.com/mehdiraized)
+[codepen](https://codepen.io/mehdiraized/)
+[facebook](http://fb.com/mehdiraized)
+[twitter](http://twitter.com/mehdiraized)
+[instagram](https://www.instagram.com/mehdiraized/)
+[telegram](http://t.me/mehdiraized)
 
 ## License
 
