@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "antd": "^2.5.3",
-    "axios": "^0.16.2",
+    "axios": "^0.18.1",
     "gulp-sourcemaps": "^2.6.1",
     "history": "^4.7.2",
     "lodash.assign": "^4.2.0",
