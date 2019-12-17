@@ -1,19 +1,17 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports["default"] = void 0;
 
-var _Checkbox = require('./Checkbox');
+var _Checkbox = _interopRequireDefault(require("./Checkbox"));
 
-var _Checkbox2 = _interopRequireDefault(_Checkbox);
+var _Group = _interopRequireDefault(require("./Group"));
 
-var _Group = require('./Group');
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var _Group2 = _interopRequireDefault(_Group);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-_Checkbox2['default'].Group = _Group2['default'];
-exports['default'] = _Checkbox2['default'];
-module.exports = exports['default'];
+_Checkbox["default"].Group = _Group["default"];
+var _default = _Checkbox["default"];
+exports["default"] = _default;
+//# sourceMappingURL=index.js.map

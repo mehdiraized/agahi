@@ -1,14 +1,14 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports["default"] = void 0;
 
-var _zh_TW = require('../../date-picker/locale/zh_TW');
+var _zh_TW = _interopRequireDefault(require("../../date-picker/locale/zh_TW"));
 
-var _zh_TW2 = _interopRequireDefault(_zh_TW);
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-exports['default'] = _zh_TW2['default'];
-module.exports = exports['default'];
+var _default = _zh_TW["default"];
+exports["default"] = _default;
+//# sourceMappingURL=zh_TW.js.map

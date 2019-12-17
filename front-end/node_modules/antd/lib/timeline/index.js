@@ -1,14 +1,14 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports["default"] = void 0;
 
-var _Timeline = require('./Timeline');
+var _Timeline = _interopRequireDefault(require("./Timeline"));
 
-var _Timeline2 = _interopRequireDefault(_Timeline);
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-exports['default'] = _Timeline2['default'];
-module.exports = exports['default'];
+var _default = _Timeline["default"];
+exports["default"] = _default;
+//# sourceMappingURL=index.js.map

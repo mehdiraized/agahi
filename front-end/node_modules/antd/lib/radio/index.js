@@ -1,26 +1,32 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Group = exports.Button = undefined;
+Object.defineProperty(exports, "Group", {
+  enumerable: true,
+  get: function get() {
+    return _group["default"];
+  }
+});
+Object.defineProperty(exports, "Button", {
+  enumerable: true,
+  get: function get() {
+    return _radioButton["default"];
+  }
+});
+exports["default"] = void 0;
 
-var _radio = require('./radio');
+var _radio = _interopRequireDefault(require("./radio"));
 
-var _radio2 = _interopRequireDefault(_radio);
+var _group = _interopRequireDefault(require("./group"));
 
-var _group = require('./group');
+var _radioButton = _interopRequireDefault(require("./radioButton"));
 
-var _group2 = _interopRequireDefault(_group);
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var _radioButton = require('./radioButton');
-
-var _radioButton2 = _interopRequireDefault(_radioButton);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-_radio2['default'].Button = _radioButton2['default'];
-_radio2['default'].Group = _group2['default'];
-exports.Button = _radioButton2['default'];
-exports.Group = _group2['default'];
-exports['default'] = _radio2['default'];
+_radio["default"].Button = _radioButton["default"];
+_radio["default"].Group = _group["default"];
+var _default = _radio["default"];
+exports["default"] = _default;
+//# sourceMappingURL=index.js.map

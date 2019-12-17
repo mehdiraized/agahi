@@ -1,13 +1,16 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports["default"] = void 0;
+
 /**
  * Created by Andrey Gayvoronsky on 13/04/16.
  */
 var locale = {
   placeholder: 'Выберите время'
 };
-exports['default'] = locale;
-module.exports = exports['default'];
+var _default = locale;
+exports["default"] = _default;
+//# sourceMappingURL=ru_RU.js.map

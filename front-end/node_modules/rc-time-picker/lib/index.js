@@ -1,18 +1,15 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-
-var _TimePicker = require('./TimePicker');
-
-Object.defineProperty(exports, 'default', {
+Object.defineProperty(exports, "default", {
   enumerable: true,
   get: function get() {
-    return _interopRequireDefault(_TimePicker)['default'];
+    return _TimePicker["default"];
   }
 });
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+var _TimePicker = _interopRequireDefault(require("./TimePicker"));
 
-module.exports = exports['default'];
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }

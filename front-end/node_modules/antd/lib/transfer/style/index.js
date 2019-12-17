@@ -1,11 +1,14 @@
-'use strict';
+"use strict";
 
-require('../../style/index.less');
+require("../../style/index.less");
 
-require('./index.less');
+require("./index.less");
 
-require('../../checkbox/style');
+require("../../empty/style");
 
-require('../../button/style');
+require("../../checkbox/style");
 
-require('../../input/style');
+require("../../button/style");
+
+require("../../input/style");
+//# sourceMappingURL=index.js.map

@@ -1,9 +1,8 @@
-'use strict';
+"use strict";
 
-require('../../style/index.css');
+require("../../style/index.css");
 
-require('./index.css');
+require("./index.css");
 
-require('../../select/style/css');
-
-require('../../input/style/css');
+require("../../select/style/css");
+//# sourceMappingURL=css.js.map

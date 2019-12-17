@@ -1,19 +1,17 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports["default"] = void 0;
 
-var _button = require('./button');
+var _button = _interopRequireDefault(require("./button"));
 
-var _button2 = _interopRequireDefault(_button);
+var _buttonGroup = _interopRequireDefault(require("./button-group"));
 
-var _buttonGroup = require('./button-group');
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var _buttonGroup2 = _interopRequireDefault(_buttonGroup);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-_button2['default'].Group = _buttonGroup2['default'];
-exports['default'] = _button2['default'];
-module.exports = exports['default'];
+_button["default"].Group = _buttonGroup["default"];
+var _default = _button["default"];
+exports["default"] = _default;
+//# sourceMappingURL=index.js.map

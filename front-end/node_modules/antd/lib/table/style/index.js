@@ -1,15 +1,18 @@
-'use strict';
+"use strict";
 
-require('../../style/index.less');
+require("../../style/index.less");
 
-require('./index.less');
+require("./index.less");
 
-require('../../radio/style');
+require("../../empty/style");
 
-require('../../checkbox/style');
+require("../../radio/style");
 
-require('../../dropdown/style');
+require("../../checkbox/style");
 
-require('../../spin/style');
+require("../../dropdown/style");
 
-require('../../pagination/style');
+require("../../spin/style");
+
+require("../../pagination/style");
+//# sourceMappingURL=index.js.map

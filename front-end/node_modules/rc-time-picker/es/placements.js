@@ -2,9 +2,7 @@ var autoAdjustOverflow = {
   adjustX: 1,
   adjustY: 1
 };
-
 var targetOffset = [0, 0];
-
 var placements = {
   bottomLeft: {
     points: ['tl', 'tl'],
@@ -31,5 +29,4 @@ var placements = {
     targetOffset: targetOffset
   }
 };
-
 export default placements;

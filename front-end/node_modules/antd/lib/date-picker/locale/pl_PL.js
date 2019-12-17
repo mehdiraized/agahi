@@ -1,29 +1,28 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
+exports["default"] = void 0;
 
-var _extends2 = require('babel-runtime/helpers/extends');
+var _pl_PL = _interopRequireDefault(require("rc-calendar/lib/locale/pl_PL"));
 
-var _extends3 = _interopRequireDefault(_extends2);
+var _pl_PL2 = _interopRequireDefault(require("../../time-picker/locale/pl_PL"));
 
-var _pl_PL = require('rc-calendar/lib/locale/pl_PL');
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var _pl_PL2 = _interopRequireDefault(_pl_PL);
-
-var _pl_PL3 = require('../../time-picker/locale/pl_PL');
-
-var _pl_PL4 = _interopRequireDefault(_pl_PL3);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 // Merge into a locale object
 var locale = {
-    lang: (0, _extends3['default'])({ placeholder: 'Wybierz datę', rangePlaceholder: ['Data początkowa', 'Data końcowa'] }, _pl_PL2['default']),
-    timePickerLocale: (0, _extends3['default'])({}, _pl_PL4['default'])
-};
-// All settings at:
+  lang: _extends({
+    placeholder: 'Wybierz datę',
+    rangePlaceholder: ['Data początkowa', 'Data końcowa']
+  }, _pl_PL["default"]),
+  timePickerLocale: _extends({}, _pl_PL2["default"])
+}; // All settings at:
 // https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
-exports['default'] = locale;
-module.exports = exports['default'];
+
+var _default = locale;
+exports["default"] = _default;
+//# sourceMappingURL=pl_PL.js.map

@@ -1,14 +1,14 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports["default"] = void 0;
 
-var _fi_FI = require('../../date-picker/locale/fi_FI');
+var _fi_FI = _interopRequireDefault(require("../../date-picker/locale/fi_FI"));
 
-var _fi_FI2 = _interopRequireDefault(_fi_FI);
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-exports['default'] = _fi_FI2['default'];
-module.exports = exports['default'];
+var _default = _fi_FI["default"];
+exports["default"] = _default;
+//# sourceMappingURL=fi_FI.js.map

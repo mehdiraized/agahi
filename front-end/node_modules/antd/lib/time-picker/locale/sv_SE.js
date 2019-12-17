@@ -1,10 +1,12 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
+exports["default"] = void 0;
 var locale = {
-    placeholder: 'Välj tid'
+  placeholder: 'Välj tid'
 };
-exports['default'] = locale;
-module.exports = exports['default'];
+var _default = locale;
+exports["default"] = _default;
+//# sourceMappingURL=sv_SE.js.map

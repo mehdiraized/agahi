@@ -1,10 +1,12 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
+exports["default"] = void 0;
 var locale = {
-    placeholder: 'Zaman Seç'
+  placeholder: 'Zaman Seç'
 };
-exports['default'] = locale;
-module.exports = exports['default'];
+var _default = locale;
+exports["default"] = _default;
+//# sourceMappingURL=tr_TR.js.map

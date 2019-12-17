@@ -1,19 +1,17 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports["default"] = void 0;
 
-var _dropdown = require('./dropdown');
+var _dropdown = _interopRequireDefault(require("./dropdown"));
 
-var _dropdown2 = _interopRequireDefault(_dropdown);
+var _dropdownButton = _interopRequireDefault(require("./dropdown-button"));
 
-var _dropdownButton = require('./dropdown-button');
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var _dropdownButton2 = _interopRequireDefault(_dropdownButton);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-_dropdown2['default'].Button = _dropdownButton2['default'];
-exports['default'] = _dropdown2['default'];
-module.exports = exports['default'];
+_dropdown["default"].Button = _dropdownButton["default"];
+var _default = _dropdown["default"];
+exports["default"] = _default;
+//# sourceMappingURL=index.js.map

@@ -1,3 +1,4 @@
-'use strict';
+"use strict";
 
-require('../../style/index.less');
+require("../../style/index.less");
+//# sourceMappingURL=index.js.map

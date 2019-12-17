@@ -1,9 +1,10 @@
-'use strict';
+"use strict";
 
-require('../../style/index.less');
+require("../../style/index.less");
 
-require('./index.less');
+require("./index.less");
 
-require('../../progress/style');
+require("../../progress/style");
 
-require('../../tooltip/style');
+require("../../tooltip/style");
+//# sourceMappingURL=index.js.map

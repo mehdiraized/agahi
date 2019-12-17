@@ -1,31 +1,27 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports["default"] = void 0;
 
-var _extends2 = require('babel-runtime/helpers/extends');
+var _ru_RU = _interopRequireDefault(require("rc-calendar/lib/locale/ru_RU"));
 
-var _extends3 = _interopRequireDefault(_extends2);
+var _ru_RU2 = _interopRequireDefault(require("../../time-picker/locale/ru_RU"));
 
-var _ru_RU = require('rc-calendar/lib/locale/ru_RU');
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var _ru_RU2 = _interopRequireDefault(_ru_RU);
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-var _ru_RU3 = require('../../time-picker/locale/ru_RU');
-
-var _ru_RU4 = _interopRequireDefault(_ru_RU3);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-/**
- * Created by Andrey Gayvoronsky on 13/04/16.
- */
 var locale = {
-  lang: (0, _extends3['default'])({ placeholder: 'Выберите дату', rangePlaceholder: ['Начальная дата', 'Конечная дата'] }, _ru_RU2['default']),
-  timePickerLocale: (0, _extends3['default'])({}, _ru_RU4['default'])
-};
-// All settings at:
+  lang: _extends({
+    placeholder: 'Выберите дату',
+    rangePlaceholder: ['Начальная дата', 'Конечная дата']
+  }, _ru_RU["default"]),
+  timePickerLocale: _extends({}, _ru_RU2["default"])
+}; // All settings at:
 // https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
-exports['default'] = locale;
-module.exports = exports['default'];
+
+var _default = locale;
+exports["default"] = _default;
+//# sourceMappingURL=ru_RU.js.map

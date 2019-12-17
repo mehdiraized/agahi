@@ -1,10 +1,12 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
+exports["default"] = void 0;
 var locale = {
-    placeholder: '请选择时间'
+  placeholder: '请选择时间'
 };
-exports['default'] = locale;
-module.exports = exports['default'];
+var _default = locale;
+exports["default"] = _default;
+//# sourceMappingURL=zh_CN.js.map

@@ -1,29 +1,28 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
+exports["default"] = void 0;
 
-var _extends2 = require('babel-runtime/helpers/extends');
+var _vi_VN = _interopRequireDefault(require("rc-calendar/lib/locale/vi_VN"));
 
-var _extends3 = _interopRequireDefault(_extends2);
+var _vi_VN2 = _interopRequireDefault(require("../../time-picker/locale/vi_VN"));
 
-var _en_US = require('rc-calendar/lib/locale/en_US');
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var _en_US2 = _interopRequireDefault(_en_US);
-
-var _en_US3 = require('../../time-picker/locale/en_US');
-
-var _en_US4 = _interopRequireDefault(_en_US3);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 // Merge into a locale object
 var locale = {
-    lang: (0, _extends3['default'])({ placeholder: 'Chọn thời điểm', rangePlaceholder: ['Ngày bắt đầu', 'Ngày kết thúc'] }, _en_US2['default']),
-    timePickerLocale: (0, _extends3['default'])({}, _en_US4['default'])
-};
-// All settings at:
+  lang: _extends({
+    placeholder: 'Chọn thời điểm',
+    rangePlaceholder: ['Ngày bắt đầu', 'Ngày kết thúc']
+  }, _vi_VN["default"]),
+  timePickerLocale: _extends({}, _vi_VN2["default"])
+}; // All settings at:
 // https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
-exports['default'] = locale;
-module.exports = exports['default'];
+
+var _default = locale;
+exports["default"] = _default;
+//# sourceMappingURL=vi_VN.js.map

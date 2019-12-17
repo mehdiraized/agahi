@@ -1,15 +1,14 @@
-'use strict';
+"use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports["default"] = void 0;
 var autoAdjustOverflow = {
   adjustX: 1,
   adjustY: 1
 };
-
 var targetOffset = [0, 0];
-
 var placements = {
   bottomLeft: {
     points: ['tl', 'tl'],
@@ -36,6 +35,5 @@ var placements = {
     targetOffset: targetOffset
   }
 };
-
-exports['default'] = placements;
-module.exports = exports['default'];
+var _default = placements;
+exports["default"] = _default;

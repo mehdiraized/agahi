@@ -1,5 +1,6 @@
-'use strict';
+"use strict";
 
-require('../../style/index.css');
+require("../../style/index.css");
 
-require('../../grid/style/index.css');
+require("../../grid/style/css");
+//# sourceMappingURL=css.js.map
