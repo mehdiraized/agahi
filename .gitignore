@@ -1,35 +1,34 @@
-# See https://help.github.com/ignore-files/ for more about ignoring files.
+# front end
 
 # Dependencies
-front-end/node_modules/
+/front-end/node_modules
 
 # Compiled output
-front-end/build
+/front-end/build
 
 # Runtime data
-front-end/database.sqlite
+/front-end/database.sqlite
 
 # Test coverage
-front-end/coverage
+/front-end/coverage
 
 # Logs
-front-end/npm-debug.log*
-front-end/yarn-debug.log*
-front-end/yarn-error.log*
+/front-end/npm-debug.log*
+/front-end/yarn-debug.log*
+/front-end/yarn-error.log*
 
 # Editors and IDEs
-front-end/.idea
-front-end/.vscode/*
-front-end/!.vscode/settings.json
-front-end/!.vscode/tasks.json
-front-end/!.vscode/launch.json
-front-end/!.vscode/extensions.json
+/front-end/.idea
+/front-end/.vscode/*
+/front-end/!.vscode/settings.json
+/front-end/!.vscode/tasks.json
+/front-end/!.vscode/launch.json
+/front-end/!.vscode/extensions.json
 
 # Misc
 front-end/.DS_Store
 
 
 #Backend
-back-end/vendor/
-back-end/logs/*
-back-end/logs/README.md
+/back-end/vendor
+/back-end/logs
