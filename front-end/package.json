@@ -34,7 +34,7 @@
     "watchify": "^3.11.1"
   },
   "dependencies": {
-    "antd": "^3.26.16",
+    "antd": "^4.6.3",
     "axios": "^0.20.0",
     "gulp-sourcemaps": "^2.6.5",
     "history": "^5.0.0",
